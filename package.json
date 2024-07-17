@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm install --omit=dev",
     "start": "vite",
     "build": "vite build",
     "serve": "serve -s dist",
